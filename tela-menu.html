@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style (1).css">
+    <title>Mario</title>
+
+    <style>
+          @font-face {
+   font-family: "minhafonte";
+   src: url(SuperMario256.ttf) }
+        
+    </style>
+    
+    
+    <script>
+		
+        function relogio(){
+            var data=new Date();
+            var hor=data.getHours();
+            var min=data.getMinutes();
+            var seg=data.getSeconds();
+            
+            if(hor < 10){
+                hor="0"+hor;
+            }
+            if(min < 10){
+                min="0"+min;
+            }
+            if(seg < 10){
+                seg="0"+seg;
+            }
+            
+            var horas=hor + ":" + min + ":" + seg;
+            
+            document.getElementById("rel").value=horas;
+        }
+
+        var timer=setInterval(relogio,1000);
+
+    </script>
+
+</head>
+<body>
+   
+    <nav>
+        <input type="text" id="rel">
+        <ul>
+            <li><a href="inicio.html">Inicio</a></li>
+            <li><a href="caracteristicas.html">Características</a></li>
+            <li><a href="jogos-principais.html">Jogos Principais</a></li>
+            <li><a href="outros-jogos.html">Outros jogos</a></li>
+            <li><a href="fatos.html">fatos</a></li>
+            <li><a href="sobre.html">sobre</a></li>
+            <li><a href="index.html">jogo</a></li>
+            
+        </ul>
+    </nav>
+
+
+    <section class="banner"></section>
+
+
+</body>
+
+</html>

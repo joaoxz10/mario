@@ -1,0 +1,153 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    background: black;
+    padding: 10px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    
+}
+nav .log a{
+    text-decoration: none;
+    color: rgb(150, 136, 136);
+    font-size: 35px;
+    font-weight: 600;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+}
+nav li{
+    margin-left: 10px;
+    
+}
+nav li a{
+    text-decoration: none;
+    font-family: minhafonte;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+    
+}
+nav li a:hover{
+    background-color: white;
+    color: red;
+    
+}
+.banner{
+      height: 100vh;
+background: linear-gradient( rgba(0, 0, 0, 0.281),rgba(0, 0, 0, 0.308)),url('background.jpg');
+background-size: cover;
+background-position: center center;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+justify-content: left;
+
+}
+h1{ 
+   font-family: minhafonte;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-indent: 30px;
+}
+h4{
+
+font-family: minhafonte;
+text-align: flex;
+justify-content: center;
+align-items:flex;
+color: rgb(2, 2, 2);
+margin:50px;
+}
+
+p{
+    text-align: justify;
+    text-indent: 30px ;
+}
+
+
+.container{
+    margin: 150px auto;
+    width: 50%;
+    padding: 8px;
+    position: relative;
+}
+
+img{
+    background-position: center;
+    align-items: center;
+    float: left;
+    width: 300px;
+    height: 260px;
+    padding: 0 10px 0 0;
+    
+}
+input{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+    width: 55px;
+    background: transparent;
+    border-radius: 40px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    background-color: red;
+}
+ a{
+     background-color: rgb(44, 38, 38);
+    border-radius: 100px;
+    align-content: center;
+    
+ }
+ 
+     
+ 
+
+ .legenda{
+     position: absolute;
+     left: 10px;
+
+ }
+
+    body{background-color:#add8e6;
+    }
+.desenvolvedores{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.desenvolvedor_joao{
+    display: flex;
+    margin-top: 50;
+   
+
+
+
+
+}
+
+.desenvolvedor_igor{
+    display: flex;
+    margin-top: 50;
+    
+
+
+
+}
